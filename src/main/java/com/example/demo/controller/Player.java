@@ -4,6 +4,7 @@ public class Player {
     private String duprId;
     private String name;
     private String rating;
+    private String token;
 
     public String getDuprId() {
         return duprId;
@@ -27,5 +28,13 @@ public class Player {
 
     public void setRating(String rating) {
         this.rating = rating;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
     }
 }
